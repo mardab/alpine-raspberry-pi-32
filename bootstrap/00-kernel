@@ -2,7 +2,7 @@
 
 set -xe
 
-apk add openrc chrony
+apk add openrc chrony alpine-conf
 apk add --update linux-rpi raspberrypi-bootloader zram-init
 rc-update add zram-init boot
 
