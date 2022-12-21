@@ -2,7 +2,7 @@
 
 set -xe
 
-apk add eudev openssh haveged alpine-conf
+apk add eudev openssh haveged
 
 for service in devfs dmesg; do
 	rc-update add $service sysinit
