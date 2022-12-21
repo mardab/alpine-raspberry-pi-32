@@ -2,7 +2,7 @@
 
 set -xe
 
-apk add openrc
+apk add openrc chrony
 apk add --update linux-rpi raspberrypi-bootloader zram-init
 rc-update add zram-init boot
 
