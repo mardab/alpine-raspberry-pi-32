@@ -85,4 +85,4 @@ truncate -s "$FREE_START" "$OUTPUT_IMG"
 
 mv "$OUTPUT_IMG" "dist/alpine-rpi-$ALPINE_BRANCH-$ARCH.img"
 
-echo "DONE."
+echo "DONE"
